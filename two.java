@@ -1,10 +1,9 @@
 public class two {
     public static void main(String[]args){
-        String a="karthi";
-        for (int i=0; i<5; i++){
-            System.out.println(i);
+        String[] a={"a","b","c","d","e","f","g","h","i","j"};
+        for (String i:a){
+            System.out.print(i+" ");
         }
-        System.out.println(a);
+       
     }
-    
 }
